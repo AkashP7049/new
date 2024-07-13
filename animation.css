@@ -1,0 +1,86 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name:new ;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-direction:alternate;
+     animation-delay: 3s; 
+}*/
+/* div:hover{
+    animation-name:new ;
+    animation-duration: 3s;
+    
+} */
+/* @keyframes new{
+    from{
+        background-color: green;
+        border-radius: 50%;
+    }
+    to{
+        background-color: gray;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: brown;
+        height: 100vh;
+        width: 100vh;
+    }
+    100%{
+        background-color: orange;
+        height: 100vh;
+        width: 100vh;
+    }
+
+} */
+ 
+.box{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background: linear-gradient(blue,red);
+    border-radius: 999999999%;
+    border: 5px solid black;
+    animation-name:bounce ;
+   animation-duration: 500ms;
+   animation-timing-function: ease-in;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+    /* animation: 900ms ease-in infinite alternate none running bounce; */
+
+}
+@keyframes bounce{
+from{
+    transform: translateY(0px);
+}
+to{
+    transform: translateY(85vh)rotate(360deg);
+}
+}
+.square{
+    width: 200px;
+    height: 200px;
+    /* margin: auto; */
+    background: linear-gradient(rgb(0, 255, 136),red);
+    /* border-radius: 999999999%; */
+    border: 5px solid black;
+    animation-name:square ;
+   animation-duration: 900ms;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+    /* animation: 900ms ease-in infinite alternate none running bounce; */
+
+}
+@keyframes square{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(85vh)rotate(360deg);
+}
+}
+ 

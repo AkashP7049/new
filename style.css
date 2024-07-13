@@ -1,0 +1,76 @@
+/*h1{
+    background-color: blue;
+}
+#one{
+    background-color: red;
+}
+.two{
+    background-color: chocolate;
+}
+a[href="http://google.com"]{
+    background-color: blue;
+}
+/* start with http */
+/*a[href^="http"]{
+    background-color: rgb(163, 218, 12);
+}
+/* end with com */
+/*a[href$="Akash"]{
+    background-color: blanchedalmond;
+}
+/* any string word select*/
+/*a[href*="rgpv"]{
+    background-color: green;
+}
+/* whoole background clour*/
+/*{
+    background-color: red;
+}
+/* div tag only who call any p tag they have only perform*/
+/*div p{
+    background-color: brown;
+}
+ol > p{
+    background-color: palegoldenrod;
+}
+div{
+    background-color: rgb(123, 255, 0);
+    height: 200px;
+    width: 200px;
+    transition: 3s;
+}
+div:hover{
+    background-color: green;
+    border-radius: 100%;
+}
+li:first-child{
+    background-color: greenyellow;
+}
+li:last-child{
+    background-color: blueviolet;
+}
+li:nth-last-of-type(3){
+    background-color: lightskyblue;
+}
+li:nth-last-of-type(2){
+    background-color: lightcoral;
+}
+#parent{
+    height: 100px;
+    width: 100px;
+    background-color: peru;
+}
+#child{
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+}
+#child1{
+    height: 80vh;
+    width: 80vw;
+    background-color: black;
+}*/
+ol > li{
+  font-size: 3em;
+
+}

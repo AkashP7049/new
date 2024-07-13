@@ -1,0 +1,44 @@
+/* div{
+    border: 20px solid green;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+   margin: 50px; */
+
+/*}
+
+
+/*div{
+   /* background-color: orange;
+    height: 50px;
+
+}
+span{
+    background-color: red;
+    height: 100px;
+    width: 200px;
+  /*  display: inline-block
+   
+    display: none;
+    display: hidden;*/
+   /* visibility: hidden;*/
+    /*display: block;*/
+/*}*/
+.one{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+div:nth-last-of-type(1){
+    background-color: rebeccapurple;
+    position: relative;
+    top: 3px;
+}
+div:nth-last-of-type(2){
+    background-color: blue;
+    position: absolute;
+    top: 3px;
+}
+div:nth-last-of-type(3){
+    background-color: gray;
+}

@@ -1,0 +1,27 @@
+ .container{
+    height: 2000px;
+    border: 10px solid green;
+    padding: 100px;
+}
+.box{
+    
+    border: 2px solid red;
+    padding: 50px;
+    background-color: burlywood;
+    position: sticky;
+    top: 30px;
+
+} 
+/* .parent{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: relative;
+}
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 8px;
+} */

@@ -1,0 +1,12 @@
+.parent{
+    row-gap: 10px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px 300px ;
+}
+ 
+img{
+    height: 300px;
+    width: 297px;
+}
