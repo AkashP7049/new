@@ -1,0 +1,16 @@
+*{
+    background-color: rgb(234, 227, 227);
+}
+div{
+    display: flex;
+    position: absolute;
+}
+h2{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+tr{
+    border: 20px solid rgb(204, 8, 8);
+}
